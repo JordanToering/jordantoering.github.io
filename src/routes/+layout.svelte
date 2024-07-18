@@ -46,7 +46,7 @@
 		margin-right: 0px;
 		margin-top: 0px;
 		margin-bottom: 0px;
-		font-family: 'Barlow', Helvetica;
+		font-family: Barlow, Helvetica;
 		text-rendering: optimizeLegibility;
 		-webkit-font-smoothing: antialiased;
 		font-variant-ligatures: contextual common-ligatures;
