@@ -32,7 +32,7 @@
 			]
 		},
 		{
-			job_title: 'Software Developer Co-op',
+			job_title: 'Software Developer',
 			company: 'TELUS',
 			date_year_start: '2016',
 			date_month_start: 'Sep',
@@ -45,7 +45,7 @@
 			]
 		},
 		{
-			job_title: 'Software Developer in Test Co-op',
+			job_title: 'Software Developer in Test',
 			company: 'Pulse Energy/EnerNOC',
 			date_year_start: '2014',
 			date_month_start: 'Sep',
@@ -86,97 +86,109 @@
 	];
 </script>
 
-<div class="resume">
-	<header>
-		<h1>Jordan Toering</h1>
-		<div class="contact">
-			<div class="profession">Software Developer</div>
-			<div>BC, Canada</div>
-			<div>
-				<a class="site" target="_blank" href="https://github.com/jordantoering"
-					>github.com/jordantoering</a
-				>
+<div class="paper-container">
+	<div class="resume">
+		<header>
+			<h1>Jordan Toering</h1>
+			<div class="contact">
+				<div class="profession">Software Developer</div>
+				<div>BC, Canada</div>
+				<div>
+					<a class="site" target="_blank" href="https://github.com/jordantoering"
+						>github.com/jordantoering</a
+					>
+				</div>
+				<div>toering3@gmail.com</div>
 			</div>
-			<div>toering3@gmail.com</div>
-		</div>
-	</header>
+		</header>
 
-	<section>
-		<div class="color-section-heading">
-			<h2>Work Experience</h2>
-			<div class="color-section-line"></div>
-		</div>
-		{#each positionItems as positionItem}
-			<div class="position-item">
-				<div class="position-item-heading">
-					<div class="position-item-job-title">
-						<h2>{positionItem.job_title}</h2>
-					</div>
-					<div class="position-item-company-date">
-						<div><h3>{positionItem.company}</h3></div>
-						<div class="position-item-date">
-							<span
-								>{positionItem.date_month_start}
-								{positionItem.date_year_start} - {positionItem.date_month_end}
-								{positionItem.date_year_end}</span
-							>
+		<section>
+			<div class="color-section-heading">
+				<h2>Work Experience</h2>
+				<div class="color-section-line"></div>
+			</div>
+			{#each positionItems as positionItem}
+				<div class="position-item">
+					<div class="position-item-heading">
+						<div class="position-item-job-title">
+							<h2>{positionItem.job_title}</h2>
+						</div>
+						<div class="position-item-company-date">
+							<div><h3>{positionItem.company}</h3></div>
+							<div class="position-item-date">
+								<span
+									>{positionItem.date_month_start}
+									{positionItem.date_year_start} - {positionItem.date_month_end}
+									{positionItem.date_year_end}</span
+								>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="position-item-description">
-					<ul>
-						{#each positionItem.description_items as item_description}
-							<li>{item_description}</li>
-						{/each}
-					</ul>
-				</div>
-			</div>
-		{/each}
-	</section>
-
-	<section>
-		<div class="color-section-heading">
-			<h2>Education</h2>
-			<div class="color-section-line"></div>
-		</div>
-		{#each educationItems as educationItem}
-			<div class="education-item">
-				<div class="education-item-row">
-					<div class="education-item-degree">
-						<h2>{educationItem.degree_title}</h2>
-					</div>
-					<div class="education-item-school-year">
-						<div class="education-item-school">
-							<h3>{educationItem.school}</h3>
-						</div>
-						<div class="education-item-year">
-							<span>{educationItem.date_year_start} - {educationItem.date_year_end}</span>
-						</div>
+					<div class="position-item-description">
+						<ul>
+							{#each positionItem.description_items as item_description}
+								<li>{item_description}</li>
+							{/each}
+						</ul>
 					</div>
 				</div>
-			</div>
-		{/each}
-	</section>
-
-	<section>
-		<div class="color-section-heading">
-			<h2>Skills</h2>
-			<div class="color-section-line"></div>
-		</div>
-		<ul class="skills-list">
-			{#each skillItems as skillItem}
-				<li class="skills-list-item">{skillItem}</li>
 			{/each}
-		</ul>
-	</section>
+		</section>
+
+		<section>
+			<div class="color-section-heading">
+				<h2>Education</h2>
+				<div class="color-section-line"></div>
+			</div>
+			{#each educationItems as educationItem}
+				<div class="education-item">
+					<div class="education-item-row">
+						<div class="education-item-degree">
+							<h2>{educationItem.degree_title}</h2>
+						</div>
+						<div class="education-item-school-year">
+							<div class="education-item-school">
+								<h3>{educationItem.school}</h3>
+							</div>
+							<div class="education-item-year">
+								<span>{educationItem.date_year_start} - {educationItem.date_year_end}</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/each}
+		</section>
+
+		<section>
+			<div class="color-section-heading">
+				<h2>Skills</h2>
+				<div class="color-section-line"></div>
+			</div>
+			<ul class="skills-list">
+				{#each skillItems as skillItem}
+					<li class="skills-list-item">{skillItem}</li>
+				{/each}
+			</ul>
+		</section>
+	</div>
 </div>
 
 <style>
+	.paper-container {
+		margin: 40px auto 40px auto;
+		max-width: 1000px;
+		width: 100%;
+		box-sizing: border-box;
+		background-color: #ffffff;
+	}
 	.resume {
 		padding-left: 24px;
 		padding-right: 24px;
 		padding-top: 40px;
 		padding-bottom: 40px;
+		max-width: 931px;
+		box-sizing: border-box;
+		margin: 0 auto;
 	}
 
 	@media only screen and (min-width: 768px) {
@@ -185,6 +197,9 @@
 			padding-right: 60px;
 			padding-top: 60px;
 			padding-bottom: 60px;
+			max-width: 931px;
+			box-sizing: border-box;
+			margin: 0 auto;
 		}
 	}
 

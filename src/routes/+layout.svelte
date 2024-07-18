@@ -54,5 +54,6 @@
 		font-feature-settings: 'case', 'rlig', 'calt', 'kern';
 		line-height: 1.2;
 		font-size: 16px;
+		background-color: #e4ebf1;
 	}
 </style>
