@@ -282,6 +282,7 @@
 		}
 
 		.education-item-school-year {
+			margin: 0;
 			display: flex;
 			justify-content: space-between;
 			align-items: baseline;
