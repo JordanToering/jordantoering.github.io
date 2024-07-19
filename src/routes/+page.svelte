@@ -28,6 +28,7 @@
 			description_items: [
 				'Used Express/Nodejs, React and Cassandra in development of a full stack internal web application to enable self-serve interaction between TELUS team members and a large-scale vendor API ecosystem using Kong',
 				'Developed, deployed and supported microservice APIs defined with OAS2 using Express/Nodejs, Jest, and the OpenShift container platform',
+				'Mentored junior developers in system design, code quality and critical thinking to improve team productivity',
 				'Published a privately scoped NPM package to facilitate standardization of request/response logging and correlation id implementations in other Express/Nodejs microservices'
 			]
 		},
@@ -191,7 +192,48 @@
 		margin: 0 auto;
 	}
 
-	@media only screen and (min-width: 768px) {
+	.position-item-heading {
+		margin: 0;
+		display: block;
+		margin-bottom: 16px;
+		align-items: baseline;
+		box-sizing: border-box;
+	}
+	.position-item-job-title {
+		width: 100%;
+		padding-right: 0;
+		box-sizing: border-box;
+	}
+
+	.position-item-company-date {
+		margin-top: 6px;
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		flex-grow: 1;
+		box-sizing: border-box;
+	}
+
+	.education-item-row {
+		display: block;
+		align-items: baseline;
+		margin-bottom: 12px;
+	}
+
+	.education-item-degree {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.education-item-school-year {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		margin-top: 6px;
+		flex-grow: 1;
+	}
+
+	@media screen and (min-width: 768px) {
 		.resume {
 			padding-left: 60px;
 			padding-right: 60px;
@@ -200,6 +242,50 @@
 			max-width: 931px;
 			box-sizing: border-box;
 			margin: 0 auto;
+		}
+
+		.position-item-heading {
+			margin: 0;
+			display: flex;
+			margin-bottom: 24px;
+			align-items: baseline;
+			box-sizing: border-box;
+		}
+
+		.position-item-job-title {
+			width: 300px;
+			padding-right: 16px;
+			box-sizing: border-box;
+		}
+
+		.position-item-company-date {
+			margin-top: 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			flex-grow: 1;
+			box-sizing: border-box;
+		}
+
+		.education-item-row {
+			display: flex;
+			align-items: baseline;
+			margin-bottom: 12px;
+		}
+
+		.education-item-degree {
+			width: 300px;
+			padding-right: 16px;
+			flex-shrink: 0;
+			flex-grow: 0;
+			box-sizing: border-box;
+		}
+
+		.education-item-school-year {
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			flex-grow: 1;
 		}
 	}
 
@@ -243,15 +329,6 @@
 		margin-bottom: 36px;
 	}
 
-	.position-item-heading {
-		margin: 0;
-		display: flex;
-		margin-bottom: 24px;
-		align-items: baseline;
-		-webkit-box-align: baseline;
-		box-sizing: border-box;
-	}
-
 	.position-item-description > ul {
 		margin: 0;
 		padding: 0;
@@ -262,21 +339,6 @@
 		margin-bottom: 8px;
 		margin-left: 18px;
 		padding-left: 0;
-	}
-
-	.position-item-job-title {
-		width: 300px;
-		padding-right: 16px;
-		box-sizing: border-box;
-	}
-
-	.position-item-company-date {
-		margin-top: 0;
-		display: flex;
-		justify-content: space-between;
-		align-items: baseline;
-		flex-grow: 1;
-		box-sizing: border-box;
 	}
 
 	.position-item-company-date h3 {
@@ -297,31 +359,10 @@
 		margin-bottom: 12px;
 	}
 
-	.education-item-row {
-		display: flex;
-		align-items: baseline;
-		margin-bottom: 12px;
-	}
-
-	.education-item-degree {
-		width: 300px;
-		padding-right: 16px;
-		flex-shrink: 0;
-		flex-grow: 0;
-		box-sizing: border-box;
-	}
-
 	.education-item-degree > h2 {
 		margin: 0;
 		font-weight: 600;
 		font-size: 16px;
-	}
-
-	.education-item-school-year {
-		display: flex;
-		justify-content: space-between;
-		align-items: baseline;
-		flex-grow: 1;
 	}
 
 	.education-item-school > h3 {
