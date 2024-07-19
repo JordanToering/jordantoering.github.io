@@ -176,8 +176,6 @@
 
 <style>
 	.paper-container {
-		margin: 40px auto 40px auto;
-		max-width: 1000px;
 		width: 100%;
 		box-sizing: border-box;
 		background-color: #ffffff;
@@ -234,6 +232,14 @@
 	}
 
 	@media screen and (min-width: 768px) {
+		.paper-container {
+			margin: 40px auto 40px auto;
+			max-width: 1000px;
+			width: 100%;
+			box-sizing: border-box;
+			background-color: #ffffff;
+		}
+
 		.resume {
 			padding-left: 60px;
 			padding-right: 60px;
