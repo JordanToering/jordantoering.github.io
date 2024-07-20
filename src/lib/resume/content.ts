@@ -61,7 +61,7 @@ export const resumeContent: ResumeContent = {
 				`Reduced page load times through Express API endpoint refactoring and streamlining of data needed by Angular and React frontends.`,
 				`Designed and developed a full text search at the database level to give users the ability to quickly find any entity in the system using a single input field.`,
 				`Built an interactive directed graph visualization to help users trace the flow of materials within their production processes.`,
-				`Collaborated with product team to design new features and improve existing workflows in order to promote user retention and attract new monthly recurring revenue.`,
+				`Collaborated with the product team to design new features and improve existing workflows in order to promote user retention and attract new monthly recurring revenue.`,
 				`Directly communicated with users and support team to quickly triage and resolve production issues.`,
 				`Added and maintained Jest integration test suites in order to guard against regressions in new releases.`
 			]
