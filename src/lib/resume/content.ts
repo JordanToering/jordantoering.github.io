@@ -62,7 +62,7 @@ export const resumeContent: ResumeContent = {
 				`Designed and developed a full text search at the database level to give users the ability to quickly find any entity in the system using a single input field.`,
 				`Built an interactive directed graph visualization to help users trace the flow of materials within their production processes.`,
 				`Collaborated with product team to design new features and improve existing workflows in order to promote user retention and attract new monthly recurring revenue.`,
-				`Directly communicated with users and worked closely with support team to quickly triage and resolve production issues.`,
+				`Directly communicated with users and support team to quickly triage and resolve production issues.`,
 				`Added and maintained Jest integration test suites in order to guard against regressions in new releases.`
 			]
 		},
@@ -76,8 +76,8 @@ export const resumeContent: ResumeContent = {
 			description_items: [
 				`Developed, deployed and supported OpenAPI defined microservice using Express/Nodejs, Jest, and the OpenShift container platform.`,
 				`Used Express/Nodejs and React to build an internal self-serve application that allowed other teams to rapidly onboard microservices to Kong API Gateway.`,
-				`Mentored junior developers in system design, code quality and critical thinking in order to improve team productivity.`,
-				`Published a privately scoped NPM package to facilitate standardization of request/response logging and correlation id implementations across company microservices.`
+				`Published a privately scoped NPM package to facilitate standardization of request/response logging and correlation id implementations across company microservices.`,
+				`Mentored junior developers in system design and code standards in order to improve team productivity.`
 			]
 		}
 	],
