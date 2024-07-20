@@ -119,16 +119,18 @@
 
 <style>
 	.paper-container {
+		margin: 40px auto 40px auto;
+		max-width: 1000px;
 		width: 100%;
 		box-sizing: border-box;
 		background-color: #ffffff;
 	}
 
 	.resume {
-		padding-left: 24px;
-		padding-right: 24px;
-		padding-top: 40px;
-		padding-bottom: 40px;
+		padding-left: 60px;
+		padding-right: 60px;
+		padding-top: 60px;
+		padding-bottom: 60px;
 		max-width: 931px;
 		box-sizing: border-box;
 		margin: 0 auto;
@@ -136,19 +138,20 @@
 
 	.position-item-heading {
 		margin: 0;
-		display: block;
-		margin-bottom: 16px;
+		display: flex;
+		margin-bottom: 24px;
 		align-items: baseline;
 		box-sizing: border-box;
 	}
+
 	.position-item-job-title {
-		width: 100%;
-		padding-right: 0;
+		width: 300px;
+		padding-right: 16px;
 		box-sizing: border-box;
 	}
 
 	.position-item-company-date {
-		margin-top: 6px;
+		margin-top: 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: baseline;
@@ -157,38 +160,40 @@
 	}
 
 	.education-item-row {
-		display: block;
+		display: flex;
 		align-items: baseline;
 		margin-bottom: 12px;
 	}
 
 	.education-item-degree {
-		width: 100%;
+		width: 300px;
+		padding-right: 16px;
+		flex-shrink: 0;
+		flex-grow: 0;
 		box-sizing: border-box;
 	}
 
 	.education-item-school-year {
+		margin: 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: baseline;
-		margin-top: 6px;
 		flex-grow: 1;
 	}
 
-	@media screen and (min-width: 768px) {
+	@media only screen and (max-width: 768px) {
 		.paper-container {
-			margin: 40px auto 40px auto;
-			max-width: 1000px;
 			width: 100%;
 			box-sizing: border-box;
 			background-color: #ffffff;
+			margin: 0;
 		}
 
 		.resume {
-			padding-left: 60px;
-			padding-right: 60px;
-			padding-top: 60px;
-			padding-bottom: 60px;
+			padding-left: 24px;
+			padding-right: 24px;
+			padding-top: 40px;
+			padding-bottom: 40px;
 			max-width: 931px;
 			box-sizing: border-box;
 			margin: 0 auto;
@@ -196,20 +201,19 @@
 
 		.position-item-heading {
 			margin: 0;
-			display: flex;
-			margin-bottom: 24px;
+			display: block;
+			margin-bottom: 16px;
 			align-items: baseline;
 			box-sizing: border-box;
 		}
-
 		.position-item-job-title {
-			width: 300px;
-			padding-right: 16px;
+			width: 100%;
+			padding-right: 0;
 			box-sizing: border-box;
 		}
 
 		.position-item-company-date {
-			margin-top: 0;
+			margin-top: 6px;
 			display: flex;
 			justify-content: space-between;
 			align-items: baseline;
@@ -218,35 +222,22 @@
 		}
 
 		.education-item-row {
-			display: flex;
+			display: block;
 			align-items: baseline;
 			margin-bottom: 12px;
 		}
 
 		.education-item-degree {
-			width: 300px;
-			padding-right: 16px;
-			flex-shrink: 0;
-			flex-grow: 0;
+			width: 100%;
 			box-sizing: border-box;
 		}
 
 		.education-item-school-year {
-			margin: 0;
 			display: flex;
 			justify-content: space-between;
 			align-items: baseline;
+			margin-top: 6px;
 			flex-grow: 1;
-		}
-	}
-
-	@media print {
-		@page {
-			size: letter;
-		}
-
-		.resume {
-			padding: 0.5in;
 		}
 	}
 
