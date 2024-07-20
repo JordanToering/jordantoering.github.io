@@ -6,7 +6,12 @@
 	<div class="resume">
 		<div class="download-pdf">
 			<a href="jt_resume.pdf" download>
-				<img class="download-pdf-svg" src="download_pdf.svg" alt="Download PDF Copy" /></a
+				<img
+					class="download-pdf-svg"
+					src="download_pdf.svg"
+					title="Download PDF Copy"
+					alt="Download PDF Copy"
+				/></a
 			>
 		</div>
 		<header>

@@ -40,88 +40,90 @@ export interface EducationItem {
 }
 
 export const resumeContent: ResumeContent = {
-	full_name: 'Jordan Toering',
-	profession_title: 'Software Developer',
-	location: 'BC, Canada',
+	full_name: `Jordan Toering`,
+	profession_title: `Software Developer`,
+	location: `BC, Canada`,
 	github_details: {
-		short_link: 'github.com/jordantoering',
-		full_url: 'https://github.com/jordantoering'
+		short_link: `github.com/jordantoering`,
+		full_url: `https://github.com/jordantoering`
 	},
-	email: 'toering3@gmail.com',
+	email: `toering3@gmail.com`,
 	work_experience_items: [
 		{
-			job_title: 'Full Stack Developer',
-			company_name: 'Elevated Signals',
-			date_year_start: '2021',
-			date_month_start: 'Apr',
-			date_year_end: '2024',
-			date_month_end: 'Apr',
+			job_title: `Full Stack Developer`,
+			company_name: `Elevated Signals`,
+			date_year_start: `2021`,
+			date_month_start: `Apr`,
+			date_year_end: `2024`,
+			date_month_end: `Apr`,
 			description_items: [
-				'Improved Postgres database stability and reduced load across all instances by 80% through performance monitoring, query plan analysis, query optimization and index modification.',
-				'Increased overall system responsiveness up to 5x through Express API endpoint refactoring and streamlining of data needed by Angular and React frontends.',
-				'Added new tests and maintained existing test suites in Jest to increase confidence in new releases.',
-				'Collaborated with product team to design new features, improve existing workflows and address customer needs.',
-				'Communicated with customer support team for triage and resolution of problems reported in production.',
-				'Reviewed pull requests and offered constructive feedback for other members of development team.'
+				`Improved Postgres database stability and decreased load by up to 80% across all instances through performance monitoring, query plan optimization and index tuning.`,
+				`Reduced page load times through Express API endpoint refactoring and streamlining of data needed by Angular and React frontends.`,
+				`Designed and developed a Postgres full text search to give users the ability to quickly find any entity in the system using a single input field.`,
+				`Built an interactive directed graph visualization to help users trace the flow of materials within their production processes.`,
+				`Collaborated with product team to design new features and improve existing workflows in order to promote user retention and attract new monthly recurring revenue.`,
+				`Directly communicated with users and worked closely with support team to quickly triage and resolve production issues.`,
+				`Added and maintained Jest integration test suites in order to guard against regressions in new releases.`
 			]
 		},
 		{
-			job_title: 'Software Developer',
-			company_name: 'TELUS',
-			date_year_start: '2019',
-			date_month_start: 'Sept',
-			date_year_end: '2021',
-			date_month_end: 'Apr',
+			job_title: `Software Developer`,
+			company_name: `TELUS`,
+			date_year_start: `2019`,
+			date_month_start: `Sept`,
+			date_year_end: `2021`,
+			date_month_end: `Apr`,
 			description_items: [
-				'Used Express/Nodejs, React and Cassandra in development of a full stack internal web application to enable self-serve interaction between TELUS team members and a large-scale vendor API ecosystem using Kong.',
-				'Developed, deployed and supported microservice APIs defined with OAS2 using Express/Nodejs, Jest, and the OpenShift container platform.',
-				'Mentored junior developers in system design, code quality and critical thinking to improve team productivity.',
-				'Published a privately scoped NPM package to facilitate standardization of request/response logging and correlation id implementations in other Express/Nodejs microservices.'
+				`Developed, deployed and supported OpenAPI defined microservice using Express/Nodejs, Jest, and the OpenShift container platform.`,
+				`Used Express/Nodejs and React to build an internal self-serve application that allowed other teams to rapidly onboard microservices to Kong API Gateway.`,
+				`Mentored junior developers in system design, code quality and critical thinking in order to improve team productivity.`,
+				`Published a privately scoped NPM package to facilitate standardization of request/response logging and correlation id implementations across company microservices.`
 			]
 		}
 	],
 	co_op_experience_items: [
 		{
-			job_title: 'Software Developer',
-			company_name: 'TELUS',
-			date_year_start: '2016',
-			date_month_start: 'Sep',
-			date_year_end: '2017',
-			date_month_end: 'Apr'
+			job_title: `Software Developer`,
+			company_name: `TELUS`,
+			date_year_start: `2016`,
+			date_month_start: `Sep`,
+			date_year_end: `2017`,
+			date_month_end: `Apr`
 		},
 		{
-			job_title: 'Software Developer in Test',
-			company_name: 'Pulse Energy/EnerNOC',
-			date_year_start: '2014',
-			date_month_start: 'Sep',
-			date_year_end: '2015',
-			date_month_end: 'Apr'
+			job_title: `Software Developer in Test`,
+			company_name: `Pulse Energy/EnerNOC`,
+			date_year_start: `2014`,
+			date_month_start: `Sep`,
+			date_year_end: `2015`,
+			date_month_end: `Apr`
 		}
 	],
 	education_items: [
 		{
-			degree_title: 'BSc. Computer Science',
-			school_name: 'Simon Fraser University',
-			date_year_start: '2012',
-			date_year_end: '2018'
+			degree_title: `BSc. Computer Science`,
+			school_name: `Simon Fraser University`,
+			date_year_start: `2012`,
+			date_year_end: `2018`
 		}
 	],
 	skill_items: [
-		'Typescript',
-		'Javascript',
-		'ExpressJS',
-		'Angular',
-		'React',
-		'Postgres',
-		'SQL',
-		'AWS',
-		'Git',
-		'Jest',
-		'HTML',
-		'CSS',
-		'OAuth2',
-		'OpenAPI',
-		'API Design',
-		'i18n'
+		`Typescript`,
+		`Javascript`,
+		`ExpressJS`,
+		`Angular`,
+		`React`,
+		`Postgres`,
+		`SQL`,
+		`AWS`,
+		`Git`,
+		`Jest`,
+		`HTML`,
+		`CSS`,
+		`OAuth2`,
+		`OpenAPI`,
+		`API Design`,
+		`i18n`,
+		`ZPL`
 	]
 };
