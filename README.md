@@ -20,3 +20,14 @@ Preview the production build with:
 ```bash
 npm run preview
 ```
+
+Generate PDF hardcopy of resume:
+
+```bash
+sudo apt-get install wkhtmltopdf
+
+npm run dev
+
+npm run pdf
+
+```

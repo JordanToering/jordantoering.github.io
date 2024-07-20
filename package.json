@@ -12,7 +12,8 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
-		"test:unit": "vitest"
+		"test:unit": "vitest",
+		"pdf": "wkhtmltopdf --page-size Letter http://localhost:5173 ./static/jt_resume.pdf"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",

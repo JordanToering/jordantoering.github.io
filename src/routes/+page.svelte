@@ -4,6 +4,11 @@
 
 <div class="paper-container">
 	<div class="resume">
+		<div class="download-pdf">
+			<a href="jt_resume.pdf" download>
+				<img class="download-pdf-svg" src="download_pdf.svg" alt="Download PDF Copy" /></a
+			>
+		</div>
 		<header>
 			<h1>{resumeContent.full_name}</h1>
 			<div class="contact">
@@ -374,5 +379,30 @@
 		font-weight: 600;
 		font-size: 20px;
 		margin: 0;
+	}
+
+	.download-pdf {
+		float: right;
+	}
+
+	.download-pdf-svg {
+		height: 60px;
+		width: 60px;
+	}
+
+	@media print {
+		@page {
+			size: letter;
+		}
+
+		.paper-container {
+			margin: 0;
+			width: 100%;
+			max-width: 100%;
+		}
+
+		.download-pdf {
+			display: none;
+		}
 	}
 </style>
