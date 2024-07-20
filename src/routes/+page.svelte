@@ -53,6 +53,34 @@
 
 		<section>
 			<div class="color-section-heading">
+				<h2>Co-Op Experience</h2>
+				<div class="color-section-line"></div>
+			</div>
+			{#each resumeContent.co_op_experience_items as co_op_experience_item}
+				<div class="education-item">
+					<div class="education-item-row">
+						<div class="education-item-degree">
+							<h2>{co_op_experience_item.job_title}</h2>
+						</div>
+						<div class="education-item-school-year">
+							<div class="education-item-school">
+								<h3>{co_op_experience_item.company_name}</h3>
+							</div>
+							<div class="education-item-year">
+								<span
+									>{co_op_experience_item.date_month_start}
+									{co_op_experience_item.date_year_start} - {co_op_experience_item.date_month_end}
+									{co_op_experience_item.date_year_end}</span
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/each}
+		</section>
+
+		<section>
+			<div class="color-section-heading">
 				<h2>Education</h2>
 				<div class="color-section-line"></div>
 			</div>
@@ -95,6 +123,7 @@
 		box-sizing: border-box;
 		background-color: #ffffff;
 	}
+
 	.resume {
 		padding-left: 24px;
 		padding-right: 24px;
@@ -208,6 +237,16 @@
 			justify-content: space-between;
 			align-items: baseline;
 			flex-grow: 1;
+		}
+	}
+
+	@media print {
+		@page {
+			size: letter;
+		}
+
+		.resume {
+			padding: 0.5in;
 		}
 	}
 
