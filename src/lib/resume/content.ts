@@ -74,7 +74,7 @@ export const resumeContent: ResumeContent = {
 			date_year_end: `2021`,
 			date_month_end: `Apr`,
 			description_items: [
-				`Developed, deployed and supported OpenAPI defined microservice using Express/Nodejs, Jest, and the OpenShift container platform.`,
+				`Developed, deployed and supported OpenAPI defined microservices using Express/Nodejs, Jest, and the OpenShift container platform.`,
 				`Used Express/Nodejs and React to build an internal self-serve application that allowed other teams to rapidly onboard microservices to Kong API Gateway.`,
 				`Published a privately scoped NPM package to facilitate standardization of request/response logging and correlation id implementations across company microservices.`,
 				`Mentored junior developers in system design and code standards in order to improve team productivity.`
