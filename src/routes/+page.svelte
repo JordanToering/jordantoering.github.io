@@ -191,7 +191,7 @@
 		flex-grow: 1;
 	}
 
-	@media only screen and (max-width: 768px) {
+	@media screen and (max-width: 768px) {
 		.paper-container {
 			width: 100%;
 			box-sizing: border-box;
@@ -401,9 +401,14 @@
 		}
 
 		.paper-container {
-			margin: 0;
-			width: 100%;
-			max-width: 100%;
+			margin: 0 auto;
+			max-width: 100vw;
+			width: 100vw;
+			height: 100vh;
+		}
+
+		.resume {
+			max-width: 931px;
 		}
 
 		.download-pdf {

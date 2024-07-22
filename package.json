@@ -13,7 +13,7 @@
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
-		"pdf": "wkhtmltopdf --page-size Letter http://localhost:5173 ./static/jt_resume.pdf"
+		"pdf": "tsx ./puppet_print.ts"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -27,6 +27,7 @@
 		"globals": "^15.0.0",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
+		"puppeteer": "^22.13.1",
 		"svelte": "^4.2.7",
 		"svelte-check": "^3.6.0",
 		"tslib": "^2.4.1",
