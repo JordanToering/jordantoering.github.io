@@ -59,9 +59,9 @@ export const resumeContent: ResumeContent = {
 			description_items: [
 				`Improved Postgres database stability and decreased load by up to 80% across all instances through performance monitoring, query plan optimization and index tuning.`,
 				`Reduced page load times through Express API endpoint refactoring and streamlining of data needed by Angular and React frontends.`,
-				`Designed and developed a full text search at the database level to give users the ability to quickly find any entity in the system using a single input field.`,
-				`Built an interactive directed graph visualization to help users trace the flow of materials within their production processes.`,
-				`Collaborated with the product team to design new features and improve existing workflows in order to promote user retention and attract new monthly recurring revenue.`,
+				`Designed and developed a full text search at the database level to give users the ability to quickly locate any entity in the system using a single search input.`,
+				`Built an interactive directed graph visualization to help users trace inputs and outputs within their production processes.`,
+				`Collaborated with the product team to design new modules and improve existing features in order to promote user retention and attract new monthly recurring revenue.`,
 				`Directly communicated with users and support team to quickly triage and resolve production issues.`,
 				`Added and maintained Jest integration test suites in order to guard against regressions in new releases.`
 			]
@@ -74,7 +74,7 @@ export const resumeContent: ResumeContent = {
 			date_year_end: `2021`,
 			date_month_end: `Apr`,
 			description_items: [
-				`Developed, deployed and supported OpenAPI defined microservices using Express/Nodejs, Jest, and the OpenShift container platform.`,
+				`Developed, deployed and supported OpenAPI based microservices using Express/Nodejs, Jest, and the OpenShift container platform.`,
 				`Used Express/Nodejs and React to build an internal self-serve application that allowed other teams to rapidly onboard microservices to Kong API Gateway.`,
 				`Published a privately scoped NPM package to facilitate standardization of request/response logging and correlation id implementations across company microservices.`,
 				`Mentored junior developers in system design and code standards in order to improve team productivity.`
